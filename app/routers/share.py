@@ -3,9 +3,9 @@ from typing import Annotated
 import json
 import os
 
-from backend.app.models.group import Group
-from backend.app.models.course import Course
-from backend.app.models.share_message import (
+from app.models.group import Group
+from app.models.course import Course
+from app.models.share_message import (
     ShareMode,
     ShareMessageGroup,
     PlayerShareMessage,
