@@ -1,7 +1,7 @@
 from typing import List
-from backend.app.models.player import Player
-from backend.app.models.course import Course
-from backend.app.models.share_message import (
+from app.models.player import Player
+from app.models.course import Course
+from app.models.share_message import (
     HoleData,
     PlayerShareMessage,
     ShareMessageGroup,

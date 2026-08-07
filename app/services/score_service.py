@@ -1,6 +1,6 @@
 from typing import List
-from backend.app.models.group import Group
-from backend.app.models.course import Course
+from app.models.group import Group
+from app.models.course import Course
 
 
 def validate_holes(player, course: Course):
