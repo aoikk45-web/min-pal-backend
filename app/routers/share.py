@@ -10,8 +10,8 @@ from app.models.share_message import (
     ShareMessageGroup,
     PlayerShareMessage,
 )
-from backend.app.services.score_service import calculate_scores
-from backend.app.services.share_service import (
+from app.services.score_service import calculate_scores
+from app.services.share_service import (
     generate_detail_message,
     generate_simple_message,
     generate_emoji_message,
